@@ -1,0 +1,48 @@
+.form-contract {
+  text-align: center;
+  position: relative;
+}
+
+.form-contract__text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  padding-left: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
+.form-contract__modal {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-contract__icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  fill: var(--tittle-color);
+
+  @media screen and (min-width: 1200px) {
+    left: 12px;
+  }
+}
+
+.form-contract__modal:checked + .form-contract__icon {
+  background-color: var(--accent-color);
+  fill: var(--accent-color);
+  border-radius: 2px;
+  background-image: url(../images/icons/checkbox.svg);
+  background-size: contain;
+}
+
+.form-contract__modal:focus + .form-contract__icon {
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.33);
+  border-radius: 2px;
+}

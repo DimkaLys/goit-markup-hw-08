@@ -1,0 +1,26 @@
+:root {
+  --logo-color: #000000;
+  --main-text-color: #757575;
+  --tittle-color: #212121;
+  --accent-color: #2196f3;
+  --icons-color: #afb1b8;
+  --button-color: #188ce8;
+  --dark-bg-color: #2f303a;
+  --page-tittle-color: #ffffff;
+  --light-bg-color: #f5f4fa;
+
+  --tittle-font-logo: 'Raleway', 'sans-serif';
+  --tittle-font: 'Roboto', sans-serif;
+
+  --grid-item: 1;
+  --animation: 250ms;
+  --animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: 768px) {
+    --grid-item: 2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    --grid-item: 4;
+  }
+}

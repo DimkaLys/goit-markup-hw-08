@@ -1,0 +1,41 @@
+@import './utils/variables';
+@import './base/common';
+@import './base/container';
+@import './base/background';
+
+@import './components/logo';
+@import './components/button';
+@import './components/link';
+@import './components/list';
+@import './components/tittle';
+@import './components/grid';
+@import './components/work-item';
+@import './components/social-icons';
+@import './components/clients';
+@import './components/grid-portfolio';
+@import './components/filter';
+@import './components/form';
+@import './components/modal';
+@import './components/modal-form';
+@import './components/form-contract';
+@import './components/mobile-menu';
+
+@import './layouts/header';
+@import './layouts/navigation';
+@import './layouts/menu';
+@import './layouts/hero';
+@import './layouts/section';
+@import './layouts/footer';
+
+/* Скрывать текс */
+
+/* .visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+} */

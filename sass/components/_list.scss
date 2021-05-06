@@ -1,0 +1,22 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  color: var(--tittle-color);
+}
+
+.list-text {
+  font-family: var(--tittle-font);
+  font-size: 16px;
+  line-height: 1.188;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+}

@@ -1,0 +1,65 @@
+.modal-form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40px;
+}
+
+.modal-form__field {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form__label {
+  font-size: 12px;
+  line-height: 1.167;
+  letter-spacing: 0.01em;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
+.modal-form__data {
+  font-size: 14px;
+}
+
+.modal-form__field input {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  padding-top: 11px;
+  padding-right: 12px;
+  padding-bottom: 11px;
+  padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border var(--animation) var(--animation-timing-function);
+}
+
+.modal-form__field textarea {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  resize: none;
+  transition: border var(--animation) var(--animation-timing-function);
+}
+
+.modal-form__field textarea::placeholder {
+  font-size: 12px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modal-form__data:hover,
+.modal-form__data:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.modal-form__data:hover + .modal__icon,
+.modal-form__data:focus + .modal__icon {
+  fill: var(--accent-color);
+}

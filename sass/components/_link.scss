@@ -1,0 +1,33 @@
+.link {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--animation) var(--animation-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.link-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--tittle-color);
+}
+
+.link-paragraph {
+  font-family: var(--tittle-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+  color: var(--main-text-color);
+}
+
+.contacts-link {
+  display: flex;
+  align-items: center;
+}

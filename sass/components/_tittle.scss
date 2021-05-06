@@ -1,0 +1,24 @@
+.main-tittle {
+  font-family: var(--tittle-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  color: var(--tittle-color);
+  margin-bottom: 50px;
+}
+
+.join-tittle {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: var(--page-tittle-color);
+}
+
+.tittle-indent {
+  margin-bottom: 4px;
+}
