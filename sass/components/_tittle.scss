@@ -1,11 +1,17 @@
 .main-tittle {
   font-family: var(--tittle-font);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   color: var(--tittle-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+    line-height: 1.167;
+    margin-bottom: 50px;
+  }
 }
 
 .join-tittle {

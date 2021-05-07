@@ -287,11 +287,19 @@ img {
 .main-tittle {
   font-family: var(--tittle-font);
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   color: var(--tittle-color);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-tittle {
+    font-size: 36px;
+    line-height: 1.167;
+    margin-bottom: 50px;
+  }
 }
 
 .join-tittle {
@@ -341,6 +349,12 @@ img {
   text-transform: uppercase;
   color: var(--tittle-color);
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .grid__tittle {
+    text-align: center;
+  }
 }
 
 .grid-work__team {
@@ -432,17 +446,6 @@ img {
 
 .social-icons__item + .social-icons__item {
   margin-left: 10px;
-}
-
-.clients-tittle {
-  font-family: var(--tittle-font);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-  color: var(--tittle-color);
 }
 
 .clients-list {

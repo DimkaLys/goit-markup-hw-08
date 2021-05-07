@@ -30,6 +30,10 @@
   text-transform: uppercase;
   color: var(--tittle-color);
   margin-bottom: 10px;
+
+  @media screen and (max-width: 767.98px) {
+    text-align: center;
+  }
 }
 
 .grid-work__team {
